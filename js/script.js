@@ -37,6 +37,9 @@ createApp({
                     done: true,
                 },
             ],
+
+            // definita variabile con stringa vuota
+            newItem: '',
  
         };
     },
@@ -48,6 +51,19 @@ createApp({
         // metodo per rimuovere un item dalla lista
         removeItem(index){
             this.items.splice(index, 1);
+        },
+        // metodo per aggingere un nuovo item
+        addItem(){
+            // condizione che controlla se il campo newitem e vuoto
+            if (this.newItem !== ''){
+                // faccio il push nell'array di oggetti
+                this.items.push({
+                    text: this.newItem,
+                    done: false,
+                });
+                // reset del campo new input
+                this.newItem = '';
+            }
         }
-    }
+    },
 }).mount('#app');

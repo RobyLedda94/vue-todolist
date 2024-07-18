@@ -52,7 +52,7 @@
                             </ul>
                             <div class="d-flex">
                                 <input type="text" class="form-control" placeholder="Aggiungi il nuovo item">
-                                <button type="button" class="btn-add-task ms-3 rounded">Aggiungi</button>
+                                <button type="button" class="btn-add-task ms-3 rounded" @click="addItem()">Aggiungi</button>
                             </div>
                         </div>
                     </div>
@@ -73,4 +73,3 @@
 
 
 
-<i :class="(item.done) ? 'fas fa-times' : 'fas fa-check' "></i>
