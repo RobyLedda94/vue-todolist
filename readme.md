@@ -14,3 +14,6 @@ MILESTONE 3 Predisporre un campo di input testuale e un pulsante "aggiungi": cli
 
 1- debug per verificare il funzionamento dei link 
 2- impostazione statica del layout
+
+3- struttura base vue 
+4- creazione  array di oggetti

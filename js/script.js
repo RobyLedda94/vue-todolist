@@ -7,3 +7,21 @@
 
 // alert di debug
 // alert("JavaScript Todolist");
+
+
+
+// struttura base vue.js
+
+
+const { createApp} = Vue;
+
+createApp({
+    data() {
+        return{
+
+        };
+    },
+    methods: {
+
+    }
+}).mount('#app');
