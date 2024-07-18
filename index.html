@@ -42,7 +42,8 @@
                                                 <!-- operatore ternario per variare in base alla condizione l'icona del bottone -->
                                                 <i :class="(item.done) ? 'fas fa-times' : 'fas fa-check' "></i>
                                             </button> 
-                                            <button class="btn btn-sm btn-square btn-danger">
+                                            <!-- bottone che rimuove l'item dalla lista -->
+                                            <button class="btn btn-sm btn-square btn-danger" @click="removeItem(index)">
                                                 <i class="fas fa-trash"></i>
                                             </button>
                                         </div>
@@ -67,3 +68,9 @@
      <script src="./js/script.js"></script>
 </body>
 </html>
+
+
+
+
+
+<i :class="(item.done) ? 'fas fa-times' : 'fas fa-check' "></i>

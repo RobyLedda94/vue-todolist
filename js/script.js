@@ -44,6 +44,10 @@ createApp({
         // con questo metodo determino se un list item risulta completato oppure no
         toggleDone(index) {
             this.items[index].done = !this.items[index].done;
+        },
+        // metodo per rimuovere un item dalla lista
+        removeItem(index){
+            this.items.splice(index, 1);
         }
     }
 }).mount('#app');

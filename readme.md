@@ -20,4 +20,8 @@ MILESTONE 3 Predisporre un campo di input testuale e un pulsante "aggiungi": cli
 
 5-milestone 1 stampiamo all'interno dell'html i nostri list item recuperati dall'array di oggetti
 6 - barriamo gli item che hanno valore booleano corrispondente a true 
-6.1 - creo una classe che crea la line di sbarramento eseguo il bind della classe nell'html
+6.1 - creo una classe che crea la linea di sbarramento eseguo il bind della classe nell'html
+7-operatore ternario che cambia l'icona del bottone in base alla condizione
+8- definire il metodo per rimuovere un item
+9- definire il metodo per aggiungere un nuovo item
+ 9.1 definire una stringa vuota
