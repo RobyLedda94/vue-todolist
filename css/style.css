@@ -47,3 +47,8 @@ ul li:last-child{
 
 }
 
+.completed {
+    text-decoration: line-through;
+    
+}
+

@@ -33,11 +33,12 @@
                         <div class="todo-list rounded">
                             <ul class="list-unstyled">
                                 <!-- utilizzo il v-for per iterare l'array di oggetti negli item -->
-                                <li v-for="(item, index) in items" :key="index">
+                                <li v-for="(item, index) in items" :key="index" :class="{ 'completed': item.done }">
                                     <div class="d-flex justify-content-between">
                                         <div>{{ item.text}}</div>
                                         <div class="buttons">
-                                            <button class="btn btn-sm btn-square btn-success mx-2">
+                                            <!-- pulsante che aggiunge e rimuove la sbarra -->
+                                            <button class="btn btn-sm btn-square btn-success mx-2" @click="toggleDone(index)">
                                                 <i class="fas fa-check"></i>
                                             </button> 
                                             <button class="btn btn-sm btn-square btn-danger">

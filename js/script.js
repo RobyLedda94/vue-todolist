@@ -41,6 +41,9 @@ createApp({
         };
     },
     methods: {
-
+        // con questo metodo determino se un list item risulta completato oppure no
+        toggleDone(index) {
+            this.items[index].done = !this.items[index].done;
+        }
     }
 }).mount('#app');
