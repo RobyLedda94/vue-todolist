@@ -18,7 +18,26 @@ const { createApp} = Vue;
 createApp({
     data() {
         return{
-
+            // array di oggetti
+            items : [
+                {
+                    text: 'fare la spesa',
+                    done: true,
+                },
+                {
+                    text: 'andare a correre',
+                    done: false,
+                },
+                {
+                    text: 'pulire casa',
+                    done: true,
+                },
+                {
+                    text: 'ripassare la lezione del giorno',
+                    done: true,
+                },
+            ],
+ 
         };
     },
     methods: {
