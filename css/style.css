@@ -52,3 +52,16 @@ ul li:last-child{
     
 }
 
+.btn-success {
+    background-color: #28a745; 
+    border-color: #28a745; 
+}
+
+.btn-times {
+    background-color: #6c757d; 
+    border-color: #6c757d; 
+    color: #fff;
+}
+
+
+

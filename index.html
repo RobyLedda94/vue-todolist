@@ -38,7 +38,7 @@
                                         <div>{{ item.text}}</div>
                                         <div class="buttons">
                                             <!-- pulsante che aggiunge e rimuove la sbarra -->
-                                            <button class="btn btn-sm btn-square btn-success mx-2" @click="toggleDone(index)">
+                                            <button class="btn btn-sm btn-square btn-success mx-2" @click="toggleDone(index)" :class="{'btn-success': !item.done, 'btn-times' : item.done}">
                                                 <!-- operatore ternario per variare in base alla condizione l'icona del bottone -->
                                                 <i :class="(item.done) ? 'fas fa-times' : 'fas fa-check' "></i>
                                             </button> 

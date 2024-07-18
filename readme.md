@@ -25,3 +25,7 @@ MILESTONE 3 Predisporre un campo di input testuale e un pulsante "aggiungi": cli
 8- definire il metodo per rimuovere un item
 9- definire il metodo per aggiungere un nuovo item
  9.1 definire una stringa vuota
+ 9.2 controllo se il campo new item non e vuoto
+ 9.3 pusho il nuovo item nell'array
+ 9.4 resetto il campo item dopo l'aggiunta
+
