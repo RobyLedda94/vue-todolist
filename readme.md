@@ -11,3 +11,6 @@ MILESTONE 2 Visualizzare a fianco ad ogni item ha una "x": cliccando su di essa,
 MILESTONE 3 Predisporre un campo di input testuale e un pulsante "aggiungi": cliccando sul pulsante, il testo digitato viene letto e utilizzato per creare un nuovo todo, che quindi viene aggiunto alla lista dei todo esistenti.
 
 <!-- LOGICA -->
+
+1- debug per verificare il funzionamento dei link 
+2- impostazione statica del layout
