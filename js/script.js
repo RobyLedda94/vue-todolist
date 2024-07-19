@@ -50,7 +50,9 @@ createApp({
         },
         // metodo per rimuovere un item dalla lista
         removeItem(index){
+            if (confirm('Sei sicuro di voler cancellare la task')){
             this.items.splice(index, 1);
+            }
         },
         // metodo per aggingere un nuovo item
         addItem(){
